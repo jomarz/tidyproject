@@ -41,5 +41,7 @@ mergedDF <- rbind(train, test)
 variables <- (varNames$V2[varNames$V2==grep("-mean\\(\\)-|-std\\(\\)-",varNames$V2),2])
 colnames(mergedDF) <- c(variables, "Activity", "Subject")
 
+head(mergedDF)
 
-
+#We now export the merged data frame to a text file
+write.table(mergedDF, "assignment2tidy.txt", row.name=FALSE)
