@@ -1,23 +1,23 @@
 ## SAMSUNG GALAXY S DATA
 ## VARIABLE NAMES AND MEANING
 
-"Subject" "Subject wearing the equipment"
-"Activity" "Activity perfomed by the subject
+####"Subject" "Subject wearing the equipment"
+####"Activity" "Activity perfomed by the subject
 
-The values in the following column names are the mean of that variable for each Subject-Activity combination
+###The values in the following column names are the mean of that variable for each Subject-Activity combination
 
-"tBodyAcc-mean()-X"
-"tBodyAcc-mean()-Y"
-"tBodyAcc-mean()-Z"
-"tBodyAcc-std()-X"
-"tBodyAcc-std()-Y"
-"tBodyAcc-std()-Z"
-"tGravityAcc-mean()-X"
-"tGravityAcc-mean()-Y"
-"tGravityAcc-mean()-Z"
-"tGravityAcc-std()-X"
-"tGravityAcc-std()-Y"
-"tGravityAcc-std()-Z"
+####"tBodyAcc-mean()-X"
+####"tBodyAcc-mean()-Y"
+####"tBodyAcc-mean()-Z"
+####"tBodyAcc-std()-X"
+####"tBodyAcc-std()-Y"
+####"tBodyAcc-std()-Z"
+####"tGravityAcc-mean()-X"
+####"tGravityAcc-mean()-Y"
+####"tGravityAcc-mean()-Z"
+####"tGravityAcc-std()-X"
+####"tGravityAcc-std()-Y"
+####"tGravityAcc-std()-Z"
 "tBodyAccJerk-mean()-X"
 "tBodyAccJerk-mean()-Y"
 "tBodyAccJerk-mean()-Z"
