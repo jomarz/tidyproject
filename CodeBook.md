@@ -6,11 +6,11 @@
 
 ###The values in the following column names are the mean of that variable for each Subject-Activity combination
 
-####"tBodyAcc-mean()-X"
-####"tBodyAcc-mean()-Y"
-####"tBodyAcc-mean()-Z"
-####"tBodyAcc-std()-X"
-####"tBodyAcc-std()-Y"
+#####"tBodyAcc-mean()-X"
+#####"tBodyAcc-mean()-Y"
+#####"tBodyAcc-mean()-Z"
+#####"tBodyAcc-std()-X"
+#####"tBodyAcc-std()-Y"
 ####"tBodyAcc-std()-Z"
 ####"tGravityAcc-mean()-X"
 ####"tGravityAcc-mean()-Y"
