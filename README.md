@@ -14,25 +14,34 @@
  The script run_analysis.R when open and run in R, reads the provided data frames
  from the Samsung Galaxy S training and test and merges it into one data frame that 
  only takes into account the columns for means and standard deviations of the variables
- It it also merged with the activities and numbers of each of the participating subjects
+ It it also merged with the activities and identifying numbers of each of the participating subjects
 
 # Step by step, the code does this:
 
 
- merge all the train data horizontally
+ ## Set the column names of the Activities and Subjects vectors
 
- merge all the test data horizontally
 
- subset the train and test data frames taking only the means and standard deviations
- variables we do this by subseting taking only the columns that correspond to variable 
- names containing -mean()- and -std()-
+## Set the variable names from the features.txt file as the column names
 
- We merge the two datasets by rows (vertically one after the other)
 
- set the variable names from the features.txt file as the column names
- in the merged data set, first taking only the means and stds
+## Subset the train and test data frames taking only the means and standard deviations
+## variables we do this by subseting taking only the columns that correspond to variable 
+## names containing "mean()" and "std()"
 
-head(mergedDF)
 
-#We now export the merged data frame to a text file
-write.table(mergedDF, "assignment2tidy.txt", row.name=FALSE)
+## Merge all the train data horizontally
+
+## Merge all the test data horizontally
+
+
+## We merge the two datasets by rows (vertically one after the other)
+
+
+## Name the activity in each observation according to activity_labels.txt
+
+
+## Summarize taking the mean for each combination of Subject, Activity and variable
+
+
+#Export the merged data frame to a text file
