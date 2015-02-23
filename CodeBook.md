@@ -8,6 +8,8 @@
 #####"Activity" "Activity perfomed by the subject
 
 ###The values in the following column names are the mean of that variable for each Subject/Activity combination
+### Each variable represents a mean or a standard deviation for one kind of movement measurement as recorded by a smartphone
+### carried by each of the Subjects whlie performing each of the Activities
 
 #####"tBodyAcc-mean()-X"
 #####"tBodyAcc-mean()-Y"
